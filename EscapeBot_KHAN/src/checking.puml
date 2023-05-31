@@ -1,0 +1,7 @@
+@startuml
+Object <|-- ArrayList
+
+Object : equals()
+Game : Object[] elementData
+Game : size()
+@enduml
